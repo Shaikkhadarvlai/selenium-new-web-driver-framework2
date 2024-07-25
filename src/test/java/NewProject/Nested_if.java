@@ -9,6 +9,7 @@ public class Nested_if {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the Charetors=");
 		String data=sc.nextLine();
+		
 		char ch=data.charAt(0);
 		
 		//use to Nested_if 
@@ -39,14 +40,14 @@ public class Nested_if {
 //			
 //		}
 		
-//		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
-//		{
-//			System.out.println("is a vowels="+ch);
-//			
-//		}else
-//		{
-//			System.out.println("is not avowels="+ch);
-//		}
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+		{
+			System.out.println("is a vowels="+ch);
+			
+		}else
+		{
+			System.out.println("is not avowels="+ch);
+		}
 		
 
 	}

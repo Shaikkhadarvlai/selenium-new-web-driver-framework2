@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="NewProject.DragandDrop">
+      <class name="Amazontest.AmazonPageTest">
         <methods>
-          <include name="Dragdrop"/>
+          <include name="testaddcart"/>
+          <include name="setupBrowser"/>
+          <include name="setupPage"/>
         </methods>
-      </class> <!-- NewProject.DragandDrop -->
+      </class> <!-- Amazontest.AmazonPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
